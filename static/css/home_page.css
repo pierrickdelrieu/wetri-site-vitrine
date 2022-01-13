@@ -1,0 +1,591 @@
+body{
+    margin: 0
+}
+
+#container_first_page{
+    background-color: #EEEEEE;
+    width: 100%;
+}
+.container_shape{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo_WeTri{
+    width: 190px;
+    height: 190px;
+}
+#container_first_page .container_shape img:nth-child(1){
+    width: 440px;
+    height: 360px;
+}
+#shape2{
+    float: right;
+    width: 320px;
+    height: 360px;
+}
+#container_WeTri{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 35%;
+    margin-top: -10%;
+}
+#container_logo_WeTri{
+    display: flex;
+    justify-content: space-between;
+}
+#title_WeTri{
+    color: #17C671;
+    font-size: 60px;
+    font-weight: 500;
+}
+#container_hook>p{
+    border-radius: 16px;
+    background: rgba(255,255,255,0.6);
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    padding: 24px;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    font-size: 22px;
+    line-height: 110%;
+    margin-top: 30px;
+}
+
+#container_text_scan p:nth-child(2), #container_text_scan p:nth-child(3){
+    text-align: center;
+    line-height: 21px;
+    font-size: 20px;
+}
+#container_text_scan p:first-child{
+    font-size: 40px;
+    text-align: center;
+}
+#container_scanne{
+    display: flex;
+    width: 60%;
+    margin-left: 5%;
+    margin-top: -35%;
+}
+#container_scanne img:first-child{
+    width: 470px;
+    height: 470px;
+}
+#container_second_page{
+    height: 100vh;
+}
+#container_second_page img:nth-child(3){
+    width: 170px;
+    height: 170px;
+}
+
+#container_second_page .container_shape img:first-child{
+    width: 250px;
+    height: 700px;
+}
+#container_second_page .container_shape img:nth-child(2){
+    width: 420px;
+    height: 700px;
+}
+#container_second_page img:nth-child(3){
+    left: 85%;
+    top: -15%;
+    position: relative;
+}
+#container_third_page{
+    height: 100vh;
+}
+#container_third_page .container_shape img:first-child{
+    height: 900px;
+    width: 265px;
+}
+#container_third_page .container_shape img:nth-child(2){
+    margin-top: 20%;
+    height: 1150px;
+    width: 220px;
+}
+#container_text_third_page{
+    display: flex;
+    width: 60%;
+    margin-left: 20%;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+#container_text_third_page img:nth-child(2){
+    margin-top: 0%;
+}
+#container_sub_element_third_page{
+    margin-top: -95%;
+    
+}
+#container_sub_element_third_page p:first-child{
+    font-size: 35px;
+    line-height: 41px;
+    text-align: center;
+    color: #000000;
+}
+#sub_container_text_third_page{
+    margin-top: 10%;
+}
+#sub_container_text_third_page p:first-child{
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+}
+
+#sub_container_text_third_page p:nth-child(2){
+    line-height: 21px;
+    font-size: 18px;
+    text-align: center;
+    color: #A6A6A6;
+}
+#container_text_third_page p:nth-child(3){
+    text-align: center;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+#container_text_third_page img:nth-child(2){
+    width: 450px;
+    height: 415px;
+}
+#container_text_fourth_page{
+    display: flex;
+    width: 60%;
+    margin-left: 30%;
+}
+#container_fourth_page{
+    margin-top: 10%;
+    height: 100vh;
+}
+#container_fourth_page img:first-child{
+    margin-left: 10%;
+}
+#sub_container_text_fourth_page{
+    margin-top: 5%;
+}
+#sub_container_text_fourth_page p:first-child{
+    font-size: 35px;
+    line-height: 41px;
+    text-align: center;
+    color: #000000;
+}
+#sub_container_text_fourth_page p:nth-child(2), #sub_container_text_fourth_page p:nth-child(3){
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+}
+
+#container_fifth_page img:nth-child(2){
+    margin-top: 20%;
+}
+#container_fifth_page{
+    height: 100vh;
+}
+
+#container_text_fifth_page{
+    display: flex;
+    width: 70%;
+    margin-top: -75%;
+    margin-left: 15%;
+}
+#sub_container_text_fifth_page{
+    text-align: center;
+}
+#sub_container_text_fifth_page p:first-child{
+    line-height: 41px;
+    font-size: 35px;
+    color: #000000;
+}
+#sub_container_text_fifth_page p:nth-child(2), #sub_container_text_fifth_page p:nth-child(3){
+    font-size: 18px;
+    line-height: 21px;
+}
+#container_sixth_page{
+    text-align: center;
+    margin-top: 15%;
+    height: 100vh;
+}
+#container_sixth_page p:first-child{
+    font-size: 22px;
+    line-height: 26px;
+}
+#container_sixth_page img:nth-child(2){
+    margin-top: 20px;
+}
+
+#container_text_seventh_page{
+    text-align: center;
+}
+#container_text_seventh_page p:nth-child(2){
+    font-size: 35px;
+    background-color: #17C67199;
+    background: rgba (23,198,113,0.6);
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    border-radius: 16px;
+    padding: 24px 35px 24px 35px;
+    display: inline-block;
+}
+#container_text_seventh_page img:first-child{
+    position: relative;
+    left: 20%;
+    margin-bottom: 54px;
+}
+#logo_seventh_page{
+    margin-top: 80px;
+    text-align: right;
+    margin-right: 50px;
+}
+#logo_seventh_page img:first-child{
+    margin-bottom: 130px;
+    position: relative;
+    left: 110px;
+}
+
+
+@media screen and (max-width: 1200px){
+    #logo_WeTri{
+        width: 160px;
+        height: 160px;
+    }
+    #container_first_page .container_shape img:nth-child(1){
+        width: 420px;
+        height: 330px;
+    }
+    #shape2{
+        width: 300px;
+        height: 340px;
+    }
+    #title_WeTri{
+        font-size: 50px;
+    }
+    #container_hook>p{
+        padding: 22px;
+        font-size: 20px;
+    }
+    #container_second_page .container_shape img:first-child{
+        width: 220px;
+        height: 630px;
+    }
+    #container_second_page .container_shape img:nth-child(2){
+        width: 360px;
+        height: 610px;
+    } 
+    #container_second_page img:nth-child(3){
+        width: 160px;
+        height: 160px;
+    }
+    #container_scanne img:first-child{
+        width: 420px;
+        height: 420px;
+    }
+    #container_text_scan p:nth-child(2), #container_text_scan p:nth-child(3){
+        font-size: 18px;
+    }
+    #container_text_scan p:first-child{
+        font-size: 35px;
+    }
+    #container_scanne{
+        width: 65%;
+        margin-top: -40%;
+    }
+    #container_third_page .container_shape img:first-child{
+        height: 870px;
+        width: 250px;
+    }
+    #container_third_page .container_shape img:nth-child(2){
+        height: 1000px;
+        width: 200px;
+    }
+    #container_sub_element_third_page p:first-child{
+        font-size: 30px;
+    }
+    #sub_container_text_third_page p:first-child{
+        font-size: 18px;
+    }
+    
+    #sub_container_text_third_page p:nth-child(2), #container_text_third_page p:nth-child(3){
+        font-size: 16px;
+    }
+    #container_text_third_page img:nth-child(2){
+        width: 420px;
+        height: 395px;
+    }
+}
+@media screen and (max-width: 1000px){
+    #logo_WeTri{
+        width: 130px;
+        height: 130px;
+    }
+    #container_first_page .container_shape img:nth-child(1){
+        width: 330px;
+        height: 260px;
+    }
+    #shape2{
+        width: 240px;
+        height: 270px;
+    }
+    #title_WeTri{
+        font-size: 40px;
+    }
+    #container_hook>p{
+        padding: 18px;
+        font-size: 16px;
+    }   
+    #container_second_page .container_shape img:first-child{
+        width: 180px;
+        height: 560px;
+    }
+    #container_second_page .container_shape img:nth-child(2){
+        width: 300px;
+        height: 550px;
+    } 
+    #container_scanne img:first-child{
+        width: 350px;
+        height: 350px;
+    }
+    #container_text_scan p:nth-child(2), #container_text_scan p:nth-child(3){
+        font-size: 16px;
+    }
+    #container_text_scan p:first-child{
+        font-size: 33px;
+    }
+    #container_scanne{
+        width: 70%;
+    }
+    #container_second_page img:nth-child(3){
+        width: 140px;
+        height: 140px;
+    }
+    #container_third_page .container_shape img:first-child{
+        height: 800px;
+        width: 220px;
+    }
+    #container_third_page .container_shape img:nth-child(2){
+        height: 920px;
+        width: 180px;
+    }
+    #container_sub_element_third_page p:first-child{
+        font-size: 25px;
+    }
+    #sub_container_text_third_page p:first-child{
+        font-size: 16px;
+    }
+    
+    #sub_container_text_third_page p:nth-child(2), #container_text_third_page p:nth-child(3){
+        font-size: 14px;
+    }
+    #container_text_third_page img:nth-child(2){
+        width: 380px;
+        height: 330px;
+    }
+}
+@media screen and (max-width: 800px){
+    #logo_WeTri{
+        width: 100px;
+        height: 100px;
+    }
+    #container_first_page .container_shape img:nth-child(1){
+        width: 280px;
+        height: 200px;
+    }
+    #shape2{
+        width: 200px;
+        height: 230px;
+    }
+    #title_WeTri{
+        font-size: 30px;
+    }
+    #container_hook>p{
+        padding: 15px;
+        font-size: 12px;
+    }
+    #container_second_page .container_shape img:first-child{
+        width: 150px;
+        height: 510px;
+    }
+    #container_second_page .container_shape img:nth-child(2){
+        width: 250px;
+        height: 450px;
+    } 
+    #container_scanne img:first-child{
+        width: 300px;
+        height: 300px;
+    } 
+    #container_text_scan p:nth-child(2), #container_text_scan p:nth-child(3){
+        font-size: 15px;
+    }
+    #container_text_scan p:first-child{
+        font-size: 30px;
+    }
+    #container_scanne{
+        width: 75%;
+        margin-top: -45%;
+    }
+    #container_second_page img:nth-child(3){
+        width: 120px;
+        height: 120px;
+    }
+    #container_third_page .container_shape img:first-child{
+        height: 650px;
+        width: 180px;
+    }
+    #container_third_page .container_shape img:nth-child(2){
+        height: 820px;
+        width: 150px;
+    }
+    #container_sub_element_third_page p:first-child{
+        font-size: 20px;
+    }
+    #sub_container_text_third_page p:first-child{
+        font-size: 14px;
+    }
+    
+    #sub_container_text_third_page p:nth-child(2), #container_text_third_page p:nth-child(3){
+        font-size: 12px;
+    }
+    #container_text_third_page img:nth-child(2){
+        width: 350px;
+        height: 310px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    #logo_WeTri{
+        width: 80px;
+        height: 80px;
+    }
+    #container_first_page .container_shape img:nth-child(1){
+        width: 240px;
+        height: 150px;
+    }
+    #shape2{
+        width: 150px;
+        height: 180px;
+    }
+    #title_WeTri{
+        font-size: 25px;
+    }
+    #container_hook>p{
+        padding: 12px;
+        font-size: 10px;
+    }
+    #container_second_page .container_shape img:first-child{
+        width: 130px;
+        height: 480px;
+    }
+    #container_second_page .container_shape img:nth-child(2){
+        width: 200px;
+        height: 380px;
+    }  
+    #container_scanne img:first-child{
+        width: 250px;
+        height: 250px;
+    }
+    #container_text_scan p:nth-child(2), #container_text_scan p:nth-child(3){
+        font-size: 13px;
+    }
+    #container_text_scan p:first-child{
+        font-size: 25px;
+    } 
+    #container_scanne{
+        width: 80%;
+        margin-top: -50%;
+    }
+    #container_second_page img:nth-child(3){
+        width: 100px;
+        height: 100px;
+    }
+    #container_third_page .container_shape img:first-child{
+        height: 550px;
+        width: 150px;
+    }
+    #container_third_page .container_shape img:nth-child(2){
+        height: 730px;
+        width: 120px;
+    }
+    #container_sub_element_third_page p:first-child{
+        font-size: 18px;
+    }
+    #sub_container_text_third_page p:first-child{
+        font-size: 13px;
+    }
+    
+    #sub_container_text_third_page p:nth-child(2), #container_text_third_page p:nth-child(3){
+        font-size: 11px;
+    }
+    #container_text_third_page img:nth-child(2){
+        width: 300px;
+        height: 260px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    #logo_WeTri{
+        width: 60px;
+        height: 60px;
+    }
+    #container_first_page .container_shape img:nth-child(1){
+        width: 200px;
+        height: 120px;
+    }
+    #shape2{
+        width: 120px;
+        height: 150px;
+    }
+    #title_WeTri{
+        font-size: 20px;
+    }
+    #container_second_page .container_shape img:first-child{
+        width: 100px;
+        height: 430px;
+    }
+    #container_second_page .container_shape img:nth-child(2){
+        width: 150px;
+        height: 290px;
+    }
+    #container_scanne img:first-child{
+        width: 200px;
+        height: 200px;
+    } 
+    #container_text_scan p:nth-child(2), #container_text_scan p:nth-child(3){
+        font-size: 12px;
+    }
+    #container_text_scan p:first-child{
+        font-size: 20px;
+    }
+    #container_scanne{
+        margin-top: -55%;
+    }
+    #container_second_page img:nth-child(3){
+        width: 80px;
+        height: 80px;
+    }
+    #container_third_page .container_shape img:first-child{
+        height: 480px;
+        width: 120px;
+    }
+    #container_third_page .container_shape img:nth-child(2){
+        height: 650px;
+        width: 100px;
+    }
+    #container_sub_element_third_page p:first-child{
+        font-size: 16px;
+    }
+    #sub_container_text_third_page p:first-child{
+        font-size: 12px;
+    }
+    
+    #sub_container_text_third_page p:nth-child(2), #container_text_third_page p:nth-child(3){
+        font-size: 11px;
+    }
+    #container_text_third_page img:nth-child(2){
+        width: 250px;
+        height: 200px;
+    }
+    
+}

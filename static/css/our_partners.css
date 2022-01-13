@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+}
+footer{
+    margin-top: 148px;
+}
+#main_container{
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 100px;
+}
+#main_container p{
+    font-size: 18px;
+}
+#container_ecosia, #container_symbioz, #container_efrei{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+#container_symbioz{
+    padding-right: 22%;
+}
+#container_symbioz,#container_efrei{
+    margin-top: 50px;
+}
+#container_symbioz p{
+    position: relative;
+    left: 10%;
+}
+#container_efrei img:first-child{
+    width: 180px;
+    height: 70px;
+}
+#container_symbioz img:first-child{
+    width: 100px;
+    height: 120px;
+}
+#container_ecosia img:first-child{
+    width: 180px;
+    height: 100px;
+}
+
+@media screen and (max-width: 1050px){
+    #container_efrei img:first-child{
+        width: 150px;
+        height: 60px;
+    }
+    #container_symbioz img:first-child{
+        width: 80px;
+        height: 98px;
+    }
+    #container_ecosia img:first-child{
+        width: 150px;
+        height: 83px;
+    }
+    #main_container p{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 900px){
+    #container_efrei img:first-child{
+        width: 150px;
+        height: 60px;
+    }
+    #container_symbioz img:first-child{
+        width: 80px;
+        height: 98px;
+    }
+    #container_ecosia img:first-child{
+        width: 150px;
+        height: 83px;
+    }
+    #main_container p{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 800px){
+    #container_efrei img:first-child{
+        width: 120px;
+        height: 45px;
+    }
+    #container_symbioz img:first-child{
+        width: 60px;
+        height: 75px;
+    }
+    #container_ecosia img:first-child{
+        width: 120px;
+        height: 60px;
+    }
+    #main_container p{
+        font-size: 12px;
+    }
+    
+}
+@media screen and (max-width: 700px){
+    #container_efrei img:first-child{
+        width: 100px;
+        height: 40px;
+    }
+    #container_symbioz img:first-child{
+        width: 50px;
+        height: 67px;
+    }
+    #container_ecosia img:first-child{
+        width: 110px;
+        height: 50px;
+    }
+    #main_container p{
+        font-size: 10px;
+    }
+    
+}
+@media screen and (max-width: 600px){
+    #container_efrei img:first-child{
+        width: 80px;
+        height: 30px;
+    }
+    #container_symbioz img:first-child{
+        width: 40px;
+        height: 55px;
+    }
+    #container_ecosia img:first-child{
+        width: 100px;
+        height: 40px;
+    }
+    #main_container p{
+        font-size: 8px;
+    }
+    
+}
+@media screen and (max-width: 470px){
+    #container_efrei img:first-child{
+        width: 80px;
+        height: 30px;
+    }
+    #container_symbioz img:first-child{
+        width: 40px;
+        height: 55px;
+    }
+    #container_ecosia img:first-child{
+        width: 100px;
+        height: 40px;
+    }
+    #main_container p{
+        font-size: 7px;
+    }
+    
+}
